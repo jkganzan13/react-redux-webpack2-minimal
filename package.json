@@ -1,0 +1,44 @@
+{
+  "name": "react-redux-webpack2-minimal",
+  "version": "0.0.1",
+  "description": "React-Redux boilerplate using Webpack 2 with the minimum required dependencies",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server -d --hot --config webpack.config.js --watch",
+    "build": "webpack --progress --bail -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkganzan13/react-redux-webpack2-minimal.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "minimal",
+    "webpack2",
+    "boilerplate"
+  ],
+  "author": "jkganzan13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkganzan13/react-redux-webpack2-minimal/issues"
+  },
+  "homepage": "https://github.com/jkganzan13/react-redux-webpack2-minimal#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0"
+  }
+}
